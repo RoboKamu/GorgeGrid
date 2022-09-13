@@ -1,0 +1,17 @@
+body {
+    background-color: red;
+    font-size: 4 rem;
+    color: aqua;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 300px 300px 300px 300px;
+    /*grid-auto-flow:column; */
+}
+
+.box {
+    background-color: blue;    
+    border: 6px solid #000;
+}
